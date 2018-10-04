@@ -1,0 +1,10 @@
+engines:
+  rubocop:
+    enabled: true
+    checks:
+      Rubocop/Metrics/LineLength:
+        enabled: false
+      Rubocop/Style/TrailingWhitespace:
+        enabled: false
+      Rubocop/Style/ClassAndModuleChildren:
+        enabled: false
